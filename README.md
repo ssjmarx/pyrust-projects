@@ -120,5 +120,3 @@ This is the modern PyO3 module syntax using nested modules, which is the recomme
 - Build with maturin: `cd rust && maturin develop && cd ..`
 - Run Python: `python main.py`
 - Install maturin: `pip install maturin` (if not already installed)
-
-Happy learning! 🦀🐍
