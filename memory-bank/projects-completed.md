@@ -15,7 +15,18 @@ Track all completed projects, both individual language examples and Python-Rust 
 ## Python-Rust Integration Projects
 
 ### Chapter 1: Getting Started
-- [ ] Project description
+- [x] **Bilingual Greeter** - Multilingual greeting system implemented in Rust with Python interface
+  - **Features:**
+    - Rust functions providing greetings in 4 languages (English, Spanish, French, German)
+    - Python command-line interface with menu selection
+    - Recursive input validation with Esperanto easter egg
+    - Proper PyO3 integration with `#[pyfunction]` and `#[pyo3::pymodule]`
+  - **Key Learnings:**
+    - Type conversion between Python `str` and Rust `&str`
+    - Using `match` expressions in both Python and Rust
+    - String formatting with `format!` macro
+    - Maturin editable installs for development workflow
+  - **Files:** `main.py`, `rust/src/lib.rs`, `pyproject.toml`
 
 ### Chapter 2: Programming a Guessing Game
 - [ ] Project description
@@ -75,4 +86,4 @@ Track all completed projects, both individual language examples and Python-Rust 
 - [ ] Project description
 
 ---
-*Last updated: 2026-02-08*
+*Last updated: 2026-02-08 - Chapter 1 project completed!*
