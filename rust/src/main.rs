@@ -18,9 +18,6 @@ fn main() -> io::Result<()> {
     // Read to the random line
     let f = File::open("../manifesto.txt")?;
     let reader = BufReader::new(f);
-
-    // Debug!  Show me the file length and the random line!
-    // println!("File length: {}, Random line: {}", file_length, random_line);
     
     // ... read to line random_line
     let mut counter = 0;
@@ -38,7 +35,6 @@ fn main() -> io::Result<()> {
         } else {
             counter += 1;
         }
-        // println!("Counter: {}, Random Line: {}, Line: {}", counter, random_line, unwrapped_line);
     }
     
     Ok(())

@@ -16,8 +16,8 @@ Track your progress through The Rust Book with corresponding Python concepts and
 - [x] Chapter project
 
 ## Chapter 2: Programming a Guessing Game
-- [ ] Rust concepts review
-- [ ] Python equivalent concepts
+- [x] Rust concepts review
+- [x] Python equivalent concepts
 - [ ] PyO3 exercise
 - [ ] Chapter project
 
